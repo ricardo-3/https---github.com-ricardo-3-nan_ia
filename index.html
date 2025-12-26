@@ -362,13 +362,13 @@
 
     <script>
         // CONFIGURACIÓN CLAVE: Cambia esto por tu link de WhatsApp
-        const CUSTOM_WHATSAPP_LINK = "https://wa.me/TUNUMERO?text=Hola%20NAN,%20quiero%20agendar%20una%20consulta%20estratégica.";
+        const CUSTOM_WHATSAPP_LINK = "https://wa.link/59hwif";
 
         function sendWhatsApp() {
             window.open(CUSTOM_WHATSAPP_LINK, '_blank');
         }
 
-        const apiKey = ""; 
+        const apiKey = "AIzaSyCJS7zZueLtotP5j1KIBC4sgttswbOZ6jQ"; 
         const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`;
 
         async function callGemini(prompt, systemPrompt) {
